@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Registreeru - Käsitöö Konverents</title>
+
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet"> 
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo/favicon-16x16.png">
+  </head>
+  <body>
+    <header class="primary-header container group">
+      <h1 class="logo">
+        <a href="index.html">Käsitöö <br> konverents</a>
+      </h1>
+      <h3 class="tagline">24 &ndash; 26  juuli 2018 <br> Haapsalu Piiskopilinnuses</h3>
+      <nav class="nav primary-nav">
+        <ul>
+          <li><a href="index.html">Pealeht</a></li><!--
+          --><li><a href="speakers.html">Esinejad</a></li><!--
+          --><li><a href="schedule.html">Ajakava</a></li><!--
+          --><li><a href="location.html">Asukoht</a></li><!--
+          --><li><a href="form.html">Registreeru</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="row-alt">
+      <div class="main container">
+        <h1>Näidislehekülg</h1>
+        <p>Vivamus ac arcu feugiat, pretium tortor nec, vestibulum nulla. Nunc consequat, risus consequat mollis ultricies, odio sem sodales quam, quis blandit arcu est eu dolor.</p>
+      </div>
+    </section>
+    <section class="main-content">
+      <div class="grid">
+        <section class="col-2-3">
+          <h2>Osta pilet</h2>
+          <h5>50 eurot</h5>
+          <p> Osta pilet kasutades formi paremal. Sooduse saamiseks osta mitu piletit korraga, seega vōta sōber ka kaasa. Peale maskmist saadame Sulle pileti
+            e-posti aadressile paari päeva jooksul. <br> Varsti näeme!</p>
+          <h4>Miks osaleda?</h4>
+          <ul class="why-attend">
+            <li>Üle 20-ne esineja üle Eesti.</li>
+            <li>Üks päev aktiivset töötoa katsetamisi ja kaks päeva esinejaid.</li>
+            <li>Toimub rahulikus ja toredas Haapsalu linnas.</li>
+            <li>Suvi Haapsalus on lihtsalt imeline.</li>
+          </ul>
+        </section><!--
+        --><form class="col-1-3" action="#" method="post">
+          <fieldset class="register-group">
+            <label>
+              Nimi
+              <input type="text" name="name" placeholder="Ees- ja perekonna nimi" required>
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="Emaili aadress" required>
+            </label>
+            <label>
+              Pileti kogus
+              <select name="quantity" required>
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </label>
+            <label>
+              Kommentaarid
+              <textarea name="comments"></textarea>
+            </label>
+          </fieldset>
+          <input class="btn btn-default" type="submit" name="submit" value="Osta">
+        </form>
+      </div>
+    </section>
+    <footer class="primary-footer container group">
+      <small>&copy; <a href="https://www.403.ee" target="_blanc">www.403.ee</a></small>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Pealeht</a></li><!--
+          --><li><a href="speakers.html">Esinejad</a></li><!--
+          --><li><a href="schedule.html">Ajakava</a></li><!--
+          --><li><a href="location.html">Asukoht</a></li><!--
+          --><li><a href="form.html">Registreeru</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
